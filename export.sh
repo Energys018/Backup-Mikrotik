@@ -1,3 +1,9 @@
+#This file for backup mikrotik config's.
+#Before use create id-rsa public key ssh for user bak.
+#And add your mikrotiks in massive "hosts"
+#Create all directory dir_{b,a,l,c}
+#Try auth in your mikrotik, and run prov.sh for create user in mikrotik.
+#Finaly run export.sh, and add in crontab.
 #!/bin/bash
 hosts=(
         ip.ad.re.ses_PORT_Organisation_mikrotik-identity \
